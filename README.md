@@ -29,7 +29,8 @@ Your app is ready to be deployed!
 
 - Bootstrap v3 and react-bootstrap
 - Hot reloading
-TODO:
+<br>
+*`To do:`*
 - React-router
 - Airbnb eslint
 - Redux?
@@ -39,8 +40,6 @@ TODO:
 *Why shouldn't I have my own boilerplate, right?*
 
 Feel free to make suggestions and/or make changes yourself.
-
--------------------------------------------
 
 ## How to use
 

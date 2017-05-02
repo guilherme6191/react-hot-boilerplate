@@ -29,7 +29,8 @@ Your app is ready to be deployed!
 
 - Bootstrap v3 and react-bootstrap
 <br>
-`TODO`:
+## TO-DO:
+
 - React-router
 - Airbnb eslint
 - Redux?

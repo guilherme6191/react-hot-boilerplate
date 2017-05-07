@@ -47,9 +47,12 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "prop-types": "^15.5.8",
     "react": "^15.5.4",
     "react-bootstrap": "^0.30.9",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0"
   },
   "scripts": {
     "start": "node scripts/start.js",

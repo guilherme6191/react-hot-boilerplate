@@ -28,8 +28,7 @@ Your app is ready to be deployed!
 
 ### You've got create-react-app plus:
 
-- Bootstrap v3 
-- react-bootstrap
+- Bootstrap v4
 - Airbnb eslint `with customizations in order to allow '.js' extension, browser and jest env`
 
 -------------------------------------------
@@ -40,7 +39,8 @@ Feel free to make suggestions and/or make changes yourself.
 
 ## How to use
 
-- `git clone --depth=1 https://github.com/guilherme6191/react-hot-boilerplate.git`
+- `git clone --depth=1 -b with-bootstrap4 https://github.com/guilherme6191/react-hot-boilerplate.git <your-project-name>`
+- `cd <your-project-name>`
 - `npm i`
 - `npm start`
 - or use `yarn`

@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^4.0.0-alpha.6",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
-    "react-bootstrap": "^0.30.9",
     "react-dom": "^15.5.4"
   },
   "devDependencies": {

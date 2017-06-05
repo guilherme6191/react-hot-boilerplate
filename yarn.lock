@@ -1284,6 +1284,10 @@ cli-cursor@^2.1.0:
   dependencies:
     restore-cursor "^2.0.0"
 
+cli-spinners@^1.0.0:
+  version "1.0.0"
+  resolved "http://nexus-proto.swarm.devfactory.com/repository/npm/cli-spinners/-/cli-spinners-1.0.0.tgz#ef987ed3d48391ac3dab9180b406a742180d6e6a"
+
 cli-width@^2.0.0:
   version "2.1.0"
   resolved "http://nexus-proto.swarm.devfactory.com/repository/npm/cli-width/-/cli-width-2.1.0.tgz#b234ca209b29ef66fc518d9b98d5847b00edf00a"
@@ -2506,7 +2510,7 @@ fresh@0.5.0:
   version "0.5.0"
   resolved "http://nexus-proto.swarm.devfactory.com/repository/npm/fresh/-/fresh-0.5.0.tgz#f474ca5e6a9246d6fd8e0953cfa9b9c805afa78e"
 
-fs-extra@3.0.1:
+fs-extra@3.0.1, fs-extra@^3.0.1:
   version "3.0.1"
   resolved "http://nexus-proto.swarm.devfactory.com/repository/npm/fs-extra/-/fs-extra-3.0.1.tgz#3794f378c58b342ea7dbbb23095109c4b3b62291"
   dependencies:
@@ -2569,6 +2573,20 @@ gauge@~2.7.3:
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
 
+generact@^0.1.0:
+  version "0.1.1"
+  resolved "http://nexus-proto.swarm.devfactory.com/repository/npm/generact/-/generact-0.1.1.tgz#e7d8c21b38175fcb45b390e38799a122208c824a"
+  dependencies:
+    chalk "^1.1.3"
+    fs-extra "^3.0.1"
+    glob "^7.1.2"
+    inquirer "^3.0.6"
+    inquirer-autocomplete-prompt "^0.8.0"
+    list-react-files "^0.2.0"
+    lodash "^4.17.4"
+    meow "^3.7.0"
+    ora "^1.2.0"
+
 generate-function@^2.0.0:
   version "2.0.0"
   resolved "http://nexus-proto.swarm.devfactory.com/repository/npm/generate-function/-/generate-function-2.0.0.tgz#6858fe7c0969b7d4e9093337647ac79f60dfbe74"
@@ -2606,7 +2624,7 @@ glob-parent@^2.0.0:
   dependencies:
     is-glob "^2.0.0"
 
-glob@^7.0.0, glob@^7.0.3, glob@^7.0.5, glob@^7.1.1:
+glob@^7.0.0, glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2:
   version "7.1.2"
   resolved "http://nexus-proto.swarm.devfactory.com/repository/npm/glob/-/glob-7.1.2.tgz#c19c9df9a028702d678612384a6552404c636d15"
   dependencies:
@@ -2921,7 +2939,36 @@ ini@~1.3.0:
   version "1.3.4"
   resolved "http://nexus-proto.swarm.devfactory.com/repository/npm/ini/-/ini-1.3.4.tgz#0537cb79daf59b59a1a517dff706c86ec039162e"
 
-inquirer@3.0.6:
+inquirer-autocomplete-prompt@^0.8.0:
+  version "0.8.0"
+  resolved "http://nexus-proto.swarm.devfactory.com/repository/npm/inquirer-autocomplete-prompt/-/inquirer-autocomplete-prompt-0.8.0.tgz#cf17dcef93f031932ee90d6e8ccc62a806d7ba7a"
+  dependencies:
+    ansi-escapes "^1.1.0"
+    chalk "^1.1.3"
+    figures "^2.0.0"
+    inquirer "3.0.5"
+    lodash "^4.17.4"
+    util "^0.10.3"
+
+inquirer@3.0.5:
+  version "3.0.5"
+  resolved "http://nexus-proto.swarm.devfactory.com/repository/npm/inquirer/-/inquirer-3.0.5.tgz#172cabc8eacbfb91d595f5d7c354b446b8141f65"
+  dependencies:
+    ansi-escapes "^1.1.0"
+    chalk "^1.0.0"
+    cli-cursor "^2.1.0"
+    cli-width "^2.0.0"
+    external-editor "^2.0.1"
+    figures "^2.0.0"
+    lodash "^4.3.0"
+    mute-stream "0.0.7"
+    run-async "^2.2.0"
+    rx "^4.1.0"
+    string-width "^2.0.0"
+    strip-ansi "^3.0.0"
+    through "^2.3.6"
+
+inquirer@3.0.6, inquirer@^3.0.6:
   version "3.0.6"
   resolved "http://nexus-proto.swarm.devfactory.com/repository/npm/inquirer/-/inquirer-3.0.6.tgz#e04aaa9d05b7a3cb9b0f407d04375f0447190347"
   dependencies:
@@ -3649,6 +3696,12 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
+list-react-files@^0.2.0:
+  version "0.2.0"
+  resolved "http://nexus-proto.swarm.devfactory.com/repository/npm/list-react-files/-/list-react-files-0.2.0.tgz#5d5102d42270328e085dfee6b90338bbc4cbe234"
+  dependencies:
+    glob "^7.1.2"
+
 load-json-file@^1.0.0:
   version "1.1.0"
   resolved "http://nexus-proto.swarm.devfactory.com/repository/npm/load-json-file/-/load-json-file-1.1.0.tgz#956905708d58b4bab4c2261b04f59f31c99374c0"
@@ -3744,9 +3797,15 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "http://nexus-proto.swarm.devfactory.com/repository/npm/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-"lodash@>=3.5 <5", lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0:
+"lodash@>=3.5 <5", lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0:
   version "4.17.4"
   resolved "http://nexus-proto.swarm.devfactory.com/repository/npm/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+
+log-symbols@^1.0.2:
+  version "1.0.2"
+  resolved "http://nexus-proto.swarm.devfactory.com/repository/npm/log-symbols/-/log-symbols-1.0.2.tgz#376ff7b58ea3086a0f09facc74617eca501e1a18"
+  dependencies:
+    chalk "^1.0.0"
 
 longest@^1.0.1:
   version "1.0.1"
@@ -4172,6 +4231,15 @@ optionator@^0.8.1, optionator@^0.8.2:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
     wordwrap "~1.0.0"
+
+ora@^1.2.0:
+  version "1.2.0"
+  resolved "http://nexus-proto.swarm.devfactory.com/repository/npm/ora/-/ora-1.2.0.tgz#32fb3183500efe83f5ea89101785f0ee6060fec9"
+  dependencies:
+    chalk "^1.1.1"
+    cli-cursor "^2.1.0"
+    cli-spinners "^1.0.0"
+    log-symbols "^1.0.2"
 
 original@>=0.0.5:
   version "1.0.0"

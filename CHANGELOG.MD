@@ -1,5 +1,6 @@
 #### `Jun 05, 2017`
 
+#### Added `generact` to scaffold new components. <br>
 #### Added redux in this branch and kept bootstrap v4;
 Feel free to strucutre your code as you find fit. My recommendations: <br>
 	- For a small app: separate by type: `/containers` `/actions` `/reducers`

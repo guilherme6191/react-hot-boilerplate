@@ -32,6 +32,12 @@ class App extends Component {
             Using <a href="https://v4-alpha.getbootstrap.com/">
               Bootstrap v4
             </a>
+            and
+          </p>
+          <p className="App-intro">
+            <a href="https://github.com/reactjs/react-redux">
+              React-redux
+            </a>
           </p>
         </div>
       </main>

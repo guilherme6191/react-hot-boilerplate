@@ -1,3 +1,8 @@
+#### `Jun 05, 2017`
+
+#### Added `generact` to scaffold new components.
+
+<br>
 #### `May 22, 2017`
 
 #### Recreated. Now version v1.0.0 of `create-react-app` was used:

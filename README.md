@@ -35,6 +35,7 @@ Generates a new component using [generact](https://github.com/diegohaz/generact)
 - Bootstrap v3 
 - react-bootstrap
 - Airbnb eslint `with customizations in order to allow '.js' extension, browser and jest env`
+- `generact` to scaffold new components
 
 -------------------------------------------
 

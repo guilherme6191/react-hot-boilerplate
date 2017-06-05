@@ -15,7 +15,7 @@ class App extends Component {
           <h4>This is your hot react boilerplate</h4>
           <p>For more info go to
             <br />
-            <a href="https://github.com/guilherme6191/react-hot-boilerplate/tree/with-redux-b4">
+            <a href="https://github.com/guilherme6191/react-hot-boilerplate/tree/with-redux-bs4">
               react-hot-boilerplate
             </a>
             <br />

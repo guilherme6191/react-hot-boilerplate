@@ -40,7 +40,7 @@ Feel free to make suggestions and/or make changes yourself.
 
 ## How to use
 
-- `git clone --depth=1 -b with-redux-b4 https://github.com/guilherme6191/react-hot-boilerplate.git <your-project-name>`
+- `git clone --depth=1 -b with-redux-bs4 https://github.com/guilherme6191/react-hot-boilerplate.git <your-project-name>`
 - `cd <your-project-name>`
 - `npm i`
 - `npm start`

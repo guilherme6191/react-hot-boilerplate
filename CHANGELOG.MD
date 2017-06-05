@@ -1,3 +1,12 @@
+#### `Jun 05, 2017`
+
+#### Added redux in this branch and kept bootstrap v4;
+Feel free to strucutre your code as you find fit. My recommendations: <br>
+	- For a small app: separate by type: `/containers` `/actions` `/reducers`
+	- For medium/bigger apps: separate by feature: `/report` `/report/action.js`, etc 
+
+
+<br>
 #### `May 22, 2017`
 
 #### Recreated. Now version v1.0.0 of `create-react-app` was used:
